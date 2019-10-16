@@ -1,0 +1,360 @@
+
+.social_icon{
+    width: 3rem;
+    height: 3rem;
+}
+.screen{
+    width: 10rem;
+}
+.screen:hover{
+    background-color: rgb(8,8,8);
+    cursor: pointer;
+    /* background:rgba(255,255,255,0.5); */
+}
+.social_media_icon{
+    background-color: rgb(0,0,0);
+    height: auto;
+
+}
+
+.list_of_icons{
+    width: 8rem;
+    height: 949px; 
+    background-color: rgb(0,0,0);
+}
+.social_icon{
+    margin-left: 2.5rem;
+}
+.menu{
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    width: 2rem;
+    height: 2rem;
+    
+}
+hr{
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; 
+}
+.ping{
+    margin: 3rem 0rem 2rem 2.5rem;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    
+}
+.inbox{
+    width: 15rem;
+    /* height: 949px; */
+    background-color:rgb(8,8,8);
+}
+.inbox_title{
+    color: white;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+    
+
+}
+.inbox_Image{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 3.9rem;
+    margin-top: 2.5rem;
+   
+}
+.inbox_titles{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+.Inbox_Names{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 1.5rem 1rem 2rem;
+}
+.Messages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(136,136,136);
+    margin-bottom: 0.5rem;
+    /* background-color: white; */
+    height: 2rem;
+    padding: .5rem;
+    border-radius: 0.3rem;
+}
+.Messages:hover{
+    background-color: rgb(16,16,16);
+    cursor: pointer;
+}
+.Inbox_Numbers{
+    text-align: right;
+}
+.Unread,.Inbox_Numbers{
+    color: white;
+}
+.Text_Members{
+    width: 30rem;
+    /* height: 949px; */
+    background-color: rgb(16,16,16);
+
+}
+input[type=text] {
+    width: 15rem;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    color: dimgray;
+    background-color: black;
+    background-image: url('../../assets/search.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  
+  input[type=text]:focus {
+    width: 80%;
+  }
+  input{
+      margin:2.5rem 2rem 2.4rem 2rem;
+  }
+  .border_radius{
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      margin-bottom: 1.7rem;
+  }
+  .Clients{
+      display: flex;
+      flex-direction: row;
+      margin-top: 2.5rem;
+      margin-left: 1.5rem;
+  }
+  .Client_Names,.Client_Text{
+      color: white;
+  }
+  .Client_Names{
+      font-weight: bold;
+  }
+  .Remove_Margin{
+      margin: 0%;
+  }
+  .Client_Text{
+      display: flex;
+      flex-direction: column;
+      margin: 0rem 0 0 2rem;
+  }
+  .Text{
+      margin-bottom: 2.9rem;
+  }
+  .Client_menu{
+      margin-bottom: 3rem;
+      margin-left: 1rem;
+  }
+  .More_Option{
+      margin-bottom: 2.5rem;
+  }
+  .seconds_alive{
+      color: dimgray;
+  }
+  .Text_Area{
+      width: 40rem;
+      background-color: whitesmoke;
+  }
+  .Text_Area_Heading{
+      display: flex;
+      flex-direction: row;
+      margin:3rem 0rem 4rem 2rem;
+  }
+  .remove_margin{
+      margin: 0%;
+  }
+  .Name_bold{
+      font-weight: bold;
+      color: dimgrey;
+  }
+  .social_add{
+      margin-left: 2rem;
+      cursor: pointer;
+  }
+  .add{
+    margin-left: 15rem;
+  }
+  .Texting_Area{
+      display: flex;
+      flex-direction: column;
+      margin-left: 3rem;
+  }
+  .Chat1{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 2rem;
+  }
+  .img{
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+  }
+  .white_box{
+      width: 25rem;
+      background-color: white;
+      border-radius: 0.5rem;
+      padding: 0.3rem;
+      margin-left: 1rem;
+  }
+  .Green_box{
+    width: 25rem;
+    background-color: green;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.3rem;
+    margin-right: 1rem;
+
+  }
+  .Chat2{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-right: 1rem;
+      margin-bottom: 2rem;
+  }
+  .text_box{
+      background-color: #FFFFFF;
+      height:8rem;
+      color: black;
+      margin-top: 13rem;
+      width: 100%;
+  }
+  
+  .text_box_image{
+      margin-top: 2rem;
+  }
+  .Image_direction{
+      display: flex;
+      flex-direction: row;
+  }
+  .image2{
+      margin-left: 2rem;
+      width: 2.5rem;
+      height: 3rem;
+  }
+  .image3{
+      margin-left: 12rem;
+     
+  }
+  .texting{
+      margin: 0%;
+  }
+  .Personal_Information{
+      background-color:  #ffffe6;
+      width: 23rem;
+      
+  }
+  .Personal_Detail_Title{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 3.2rem;
+  }
+  .Notifier{
+      margin:0rem 0rem 0rem 0rem;
+  }
+  .Notification_Image{
+      margin: 3rem 0rem 0rem 3rem;
+  }
+  .Down_Arrow{
+      margin:0.2rem 0rem 0rem 1rem;
+      cursor: pointer;
+  }
+  .Div_Box{
+    display: flex;
+    flex-direction: row;
+    width: 12rem;
+    margin: 2rem 0rem 0rem 4rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding-left: 1rem;
+
+  }
+  .Gmail_And_More_Option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  .Gmail_Image{
+      width: 3rem;
+      height: 3rem;
+  }
+  .Client_Image_Display{
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      /* flex-direction: column; */
+      margin-top: 3rem;
+      
+      
+  }
+  .reduse_size{
+      width: 15rem;
+      height: 15rem;
+      border-radius: 8px;
+  }
+  .Sender_Name,.Sender_place{
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+  }
+  .Sender_Name{
+      font-size: 0.8rem;
+      font-weight: unset;
+      color: rgb(46, 41, 41);
+  }
+  .Sender_place{
+      margin-bottom: 3rem;
+  }
+  .Sender_Detail{
+      display: flex;
+      flex-direction: column;
+      margin-top: 2rem;
+      display: none;
+  }
+  .One,.Two,.Three,.Four{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1rem;
+  }
+  .Details{
+    color: rgb(46, 41, 41);
+  }
+  .bold{
+      font-weight: bold;
+  }
+
+  .show {
+      display: block;
+    }
+    .dropdown-content {
+        display: none;
+        
+      }
+    
+    
+::ng-deep .no-line .mat-form-field-underline {
+    display: none;
+  }
+      
+
+
+
+
+
+
+
